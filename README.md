@@ -1,2 +1,2 @@
 # golang-basic
-Study Golang Basic
+Study Golang Basic From: https://www.youtube.com/watch?v=DH4Yv7uSCco
