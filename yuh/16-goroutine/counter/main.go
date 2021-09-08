@@ -21,7 +21,6 @@ func main() {
 
 	wq.Wait()
 	fmt.Println("Done")
-
 }
 
 func sayHello() {

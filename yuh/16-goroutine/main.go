@@ -21,7 +21,6 @@ func main() {
 	wq.Wait()
 	fmt.Println("Done")
 	//time.Sleep(time.Second * 5)
-
 }
 
 func count(name string) {
