@@ -34,7 +34,7 @@ func main() {
 
 	collection := client.Database("demo").Collection("users")
 
-	user := User{"conglt", "sdajah1kj2h3hu23h"}
+	user := User{"consult", "dash1kj2h3hu23h"}
 
 	insertResult, err := collection.InsertOne(context.TODO(), user)
 

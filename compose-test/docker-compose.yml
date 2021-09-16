@@ -1,0 +1,17 @@
+version: '3'
+services:
+  postgres:
+    container_name: postgresdb
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_USER: "admin"
+
+  rabbit:
+    container_name: rabbitmq
+    image: rabbitmq
+    ports:
+      - "15672:15672"
+      - "5672:5672"
